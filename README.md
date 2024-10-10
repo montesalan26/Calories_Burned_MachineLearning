@@ -8,23 +8,25 @@ Dataset
 
 The dataset contains the following features:
 
-	•	Age: Age of the individual (years)
-	•	Weight: Weight of the individual (kg)
-	•	Height: Height of the individual (me)
-	•	Duration: Duration of the physical activity (hours)
-	•	Heart Rate: Heart rate during exercise (beats per minute)
-	•	Calories Burned: Target variable, the number of calories burned (cal)
-  • Fat Percentage: Percentage of Fat in users body
-  • Water Intake : amount of water consumed (Liters)
-  • Workout Frequency: How many days a person works out
-  • BMI (Body Mass Index)
-  • Gender: Male or Female 
+- Age: Age of the individual (years)
+- Weight: Weight of the individual (kg)
+- Height: Height of the individual (me)
+- Duration: Duration of the physical activity (hours)
+- Heart Rate: Heart rate during exercise (beats per minute)
+- Calories Burned: Target variable, the number of calories burned (cal)
+- Fat Percentage: Percentage of Fat in users body
+- Water Intake : amount of water consumed (Liters)
+- Workout Frequency: How many days a person works out
+- BMI (Body Mass Index)
+- Gender: Male or Female 
 
  Models Used
 
-	•	Linear Regression: A baseline model to understand the linear relationships between features and target variables.
-	•	Decision Tree Regression: A non-linear model that captures more complex patterns in the data.
-	•	Random Forest Regression: An ensemble method that improves prediction accuracy by averaging the outputs of multiple decision trees.
+- Linear Regression: A baseline model to understand the linear relationships between features and target variables.
+  
+- Decision Tree Regression: A non-linear model that captures more complex patterns in the data.
+  
+- Random Forest Regression: An ensemble method that improves prediction accuracy by averaging the outputs of multiple decision trees.
 
 Model Evaluation
 
