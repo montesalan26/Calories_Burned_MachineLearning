@@ -30,8 +30,10 @@ Model Evaluation
 
 The performance of each model is evaluated using the following metrics:
 
-	•	Mean Squared Error (MSE): Measures the average squared difference between predicted and actual values.
-  • Mean Absolute Error (MAE): Measures the average amount by which predictions differ from the true values.
-	•	R-squared (R²): Represents the proportion of variance in the dependent variable explained by the model.
+- Mean Squared Error (MSE): Measures the average squared difference between predicted and actual values.
+  
+- Mean Absolute Error (MAE): Measures the average amount by which predictions differ from the true values.
+  
+- R-squared (R²): Represents the proportion of variance in the dependent variable explained by the model.
 
 In addition to the default evaluations, cross-validation was used to ensure the models’ performance is generalized across different data splits. Grid Search was implemented for hyperparameter tuning to optimize the models further.
